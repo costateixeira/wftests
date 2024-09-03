@@ -1,0 +1,62 @@
+{
+  "date" : "Mon, 02 Sep, 2024 18:46:17 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/input/myig.xml",
+      "size" : 4444,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 35,
+          "length" : 35
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 80
+        },
+        {
+          "activity" : "validate",
+          "start" : 35,
+          "length" : 2914
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 38,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 38,
+          "length" : 77
+        },
+        {
+          "activity" : "generate2",
+          "start" : 40,
+          "length" : 52
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 45,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 47,
+          "length" : 3
+        }
+      ]
+    }
+  ]
+}
